@@ -1,0 +1,16 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// Hello World!の出力
+
+String[][]country =
+{
+		{"Japan","Thai"},
+		{"USA","Brasil"},
+		{"France","Rassia"}
+};
+System.out.println(country[0][1]);
+	}
+
+}
