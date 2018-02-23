@@ -2,7 +2,11 @@
 <section name="Workbench">
 	<item value="C:\Users\internousdev\Desktop\workspace\workspace-tanaka\test\mysql-connector-java-5.1.45" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="RefactoringWizard.preview">
+<<<<<<< HEAD
 		<item value="870" key="width"/>
+=======
+		<item value="600" key="width"/>
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2
 		<item value="400" key="height"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">

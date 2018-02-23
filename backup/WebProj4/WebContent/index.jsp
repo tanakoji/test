@@ -8,7 +8,10 @@
 <title>INDEX</title>
 </head>
 <body>
+<<<<<<< HEAD:backup/WebProj4/WebContent/index.jsp
 
+=======
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/cf/d0e2cc7c0e0b001812e994184979fadf
 	<s:form action="HelloStrutsAction">
 		<s:submit value="HelloStruts" />
 	</s:form>
@@ -20,6 +23,7 @@
 	<s:form action="InquiryAction">
 		<s:submit value="問い合わせ" />
 	</s:form>
+<<<<<<< HEAD:backup/WebProj4/WebContent/index.jsp
 	<br>
 
 	<h3>新規ユーザー登録</h3>
@@ -36,6 +40,8 @@
 		<s:submit value="送信" />
 	</s:form>
 
+=======
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/cf/d0e2cc7c0e0b001812e994184979fadf
 
 </body>
 </html>

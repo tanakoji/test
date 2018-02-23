@@ -22,7 +22,14 @@
 <s:textarea name="body" />
 		<br>
 		<s:submit value="登録" />
+<<<<<<< HEAD:backup/WebProj5/WebContent/inquiry.jsp
 
 	</s:form>
+=======
+	</s:form>
+
+
+
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/9c/40a7006c5a0d00181b829b6ab7cfec9f
 </body>
 </html>

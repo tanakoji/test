@@ -4587,6 +4587,7 @@ java.lang.NullPointerException
 	at org.eclipse.datatools.sqltools.result.ResultsViewAPI.saveParentElapseTime(ResultsViewAPI.java:723)
 	at org.eclipse.datatools.sqltools.sqleditor.result.GroupSQLResultRunnable.run(GroupSQLResultRunnable.java:307)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+<<<<<<< HEAD
 !SESSION 2018-02-13 10:05:03.905 -----------------------------------------------
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.8.0_74
@@ -10209,3 +10210,5 @@ org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementExc
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+=======
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2

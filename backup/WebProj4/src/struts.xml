@@ -1,45 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD:backup/WebProj4/src/struts.xml
+=======
+
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/3c/8048f4af5a0d00181b829b6ab7cfec9f
 <!DOCTYPE struts PUBLIC
 "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
 "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
 	<constant name="struts.devMode" value="true" />
+<<<<<<< HEAD:backup/WebProj4/src/struts.xml
 	<package name="com.internousdev.webproj4.action" extends="struts-default">
 
 		<action name="HelloStrutsAction"
 			class="com.internousdev.webproj4.action.HelloStrutsAction" method="execute">
 
+=======
+	<package name="com.internousdev.webproj3.action" extends="struts-default">
+
+		<action name="HelloStrutsAction"
+			class="com.internousdev.webproj3.action.HelloStrutsAction" method="execute">
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/3c/8048f4af5a0d00181b829b6ab7cfec9f
 			<result name="success">hello.jsp</result>
 			<result name="error">helloStrutsError.jsp</result>
 		</action>
 
+<<<<<<< HEAD:backup/WebProj4/src/struts.xml
 		<action name="WelcomeAction" class="com.internousdev.webproj4.action.WelcomeAction"
+=======
+		<action name="WelcomeAction" class="com.internousdev.webproj3.action.WelcomeAction"
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/3c/8048f4af5a0d00181b829b6ab7cfec9f
 			method="execute">
 			<result name="success">welcome.jsp</result>
 		</action>
 
+<<<<<<< HEAD:backup/WebProj4/src/struts.xml
 		<action name="LoginAction" class="com.internousdev.webproj4.action.LoginAction"
+=======
+		<action name="LoginAction" class="com.internousdev.webproj3.action.LoginAction"
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/3c/8048f4af5a0d00181b829b6ab7cfec9f
 			method="execute">
 			<result name="success">login.jsp</result>
 			<result name="error">loginError.jsp</result>
 		</action>
 
+<<<<<<< HEAD:backup/WebProj4/src/struts.xml
 		<action name="InquiryAction" class="com.internousdev.webproj4.action.InquiryAction"
+=======
+		<action name="InquiryAction" class="com.internousdev.webproj3.action.InquiryAction"
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/3c/8048f4af5a0d00181b829b6ab7cfec9f
 			method="execute">
 			<result name="success">inquiry.jsp</result>
 		</action>
 
 		<action name="InquiryCompleteAction"
+<<<<<<< HEAD:backup/WebProj4/src/struts.xml
 			class="com.internousdev.webproj4.action.InquiryCompleteAction"
+=======
+			class="com.internousdev.webproj3.action.InquiryCompleteAction"
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/3c/8048f4af5a0d00181b829b6ab7cfec9f
 			method="execute">
 			<result name="success">inquiryComplete.jsp</result>
 		</action>
 
+<<<<<<< HEAD:backup/WebProj4/src/struts.xml
 		<action name="TestAction" class="com.internousdev.webproj4.action.TestAction"
 			method="execute">
 			<result name="success">test.jsp</result>
 		</action>
 
+=======
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.core.resources/.history/3c/8048f4af5a0d00181b829b6ab7cfec9f
 
 	</package>
 </struts>

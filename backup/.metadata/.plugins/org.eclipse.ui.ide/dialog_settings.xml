@@ -18,6 +18,7 @@
 			<item value=""/>
 		</list>
 	</section>
+<<<<<<< HEAD
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item value="false" key="FilterByLocation"/>
 		<item value="true" key="ShowStatusLine"/>
@@ -34,4 +35,6 @@
 	</section>
 	<section name="org.eclipse.ui.internal.views.markers.FiltersConfigurationDialog">
 	</section>
+=======
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2
 </section>

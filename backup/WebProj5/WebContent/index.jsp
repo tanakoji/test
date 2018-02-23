@@ -20,6 +20,10 @@
 		<s:submit value="問い合わせ" />
 	</s:form>
 
+<<<<<<< HEAD:backup/WebProj5/WebContent/index.jsp
+=======
+	<br>
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebProj3/index.jsp
 	<h3>新規ユーザー登録</h3>
 	GET 通信
 	<s:form method="get" action="TestAction">
@@ -27,7 +31,10 @@
 		<s:password name="password" />
 		<s:submit value="送信" />
 	</s:form>
+<<<<<<< HEAD:backup/WebProj5/WebContent/index.jsp
 	<br>
+=======
+>>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2:backup/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/WebProj3/index.jsp
 	POST 通信
 	<s:form method="post" action="TestAction">
 		<s:textfield name="username" />
