@@ -17,6 +17,7 @@ public class LoginDAO {
 
 	/**
 	 * ログインユーザ情報取得メソッド
+	 * 
 	 *
 	 * @param loginUserId
 	 * @param loginPassword
