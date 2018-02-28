@@ -53,6 +53,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 				boolean checkId = userCreateConfirmDAO.getUserInfo(loginUserId, loginPassword);
 
 				if(checkId){
+					
 					session.put("loginUserId", loginUserId);
 					session.put("loginPassword", loginPassword);
 					session.put("userName", userName);

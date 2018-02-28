@@ -29,6 +29,8 @@ body {
 
 span{
 color:red;
+font-size:35px;
+margin:20px auto;
 }
 
 .button{
@@ -52,6 +54,7 @@ table {
 	margin: 30px auto;
 	border: 1px solid #333;
 	font-family:'Comic Sans MS',fantasy;
+	font-size:20px;
 }
 
 #header {
@@ -62,7 +65,7 @@ table {
 
 #main {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	text-align: center;
 }
 
@@ -89,6 +92,8 @@ table {
 
 		<h3>お酒に関する情報が含まれますので、</h3>
 		<h3>20歳未満の方はご覧いただけません。</h3><br>
+		<br>
+
 		<h1><span>お客様は、20歳以上ですか？</span></h1>
 
 		<div>
@@ -102,7 +107,6 @@ table {
 			</s:if>
 
 		</div>
-	</div>
 	<div id="footer">
 	copyright(c) all right reserved beer_pal 2015-2018
 	</div>

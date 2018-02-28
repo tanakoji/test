@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-description.autobuilding=false
-=======
->>>>>>> 56186b25ae173e34f8b27fa92c7e2e79bdc7d0e2
+version=1
 eclipse.preferences.version=1
 encoding=UTF-8
 refresh.lightweight.enabled=true
-version=1

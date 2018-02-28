@@ -37,6 +37,7 @@ table {
 	margin: 30px auto;
 	border: 1px solid #333;
 	font-family:'Comic Sans MS',fantasy;
+	font-size:20px;
 }
 
 #header {
@@ -47,7 +48,7 @@ table {
 
 #main {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	text-align: center;
 }
 
@@ -71,10 +72,11 @@ table {
 		<div id="top">
 			<h1>BEER PAL</h1>
 		</div>
-		<div><p><h4>BEER PALへようこそ！</p>
-		<p>楽しくて、美味しいビールを。</p>
-		<p>世界中のビールを取り揃えています！</h4></p>
+		<div><h3>BEER PALへようこそ！<br>
+		楽しくて、美味しいビールを。<br>
+		世界中のビールを取り揃えています！</h3>
 		</div>
+		<br>
 		<div>
 			<div id="input">
 			<h3>商品購入する際にはログインをお願いします。</h3>
@@ -89,13 +91,13 @@ table {
 				 <a href='<s:url action= "UserCreateAction"/>'>こちら</h3></a>
 				</span>
 			</div>
-		</div>
 
 			<s:if test="#session.id != null">
 				<p>ログアウトする場合は<a href='<s:url action="LogoutAction" />'>こちら</a></p>
 			</s:if>
 
 		</div>
+	</div>
 	</div>
 	<div id="footer">
 	copyright(c) all right reserved beer_pal 2015-2018

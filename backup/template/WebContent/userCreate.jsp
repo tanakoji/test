@@ -12,6 +12,8 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <meta charset="utf-8">
+<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+
 <title>UserCreate画面</title>
 <style type="text/css">
 /* ========TAG LAYOUT======== */
@@ -46,7 +48,7 @@ table {
 
 #main {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	text-align: center;
 }
 
@@ -73,10 +75,10 @@ table {
 			<s:if test="errorMassage != ''">
 				<s:property value="errorMassage" escape="false" />
 			</s:if>
-			<table>
+			<table><ul>
 				<s:form action="UserCreateConfirmAction">
 					<tr>
-						<td><label>ログインID(メールアドレス):</label></td>
+						<td><li><label>ログインID(メールアドレス):</label></li></td>
 						<td><input type="email" name="loginUserId" value="" autofocus
 							required /></td>
 					</tr>
@@ -87,7 +89,11 @@ table {
 					</tr>
 
 					<tr>
-						<td><label>ログインPASS:</label></td>
+						<td><br></td>
+					</tr>
+
+					<tr>
+						<td><li><label>ログインPASS(パスワード):</label></li></td>
 						<td><input type="text" name="loginPassword" value="" required /></td>
 					</tr>
 					<tr>
@@ -98,21 +104,41 @@ table {
 					</tr>
 
 					<tr>
-						<td><label>ユーザー名:</label></td>
-						<td><input type="text" name="userName" value="" required /></td>
+						<td><br></td>
 					</tr>
 
 					<tr>
-						<td><label>性別：</label></td>
+						<td><li><label>ユーザー名(氏名):</label></li></td>
+						<td><input type="text" name="userName" value="" required /></td>
+					</tr>
+
+
+					<tr>
+						<td><li><label>年齢:</label></li></td>
+						<td><select class="dropdown" name="age"><option>選択してください</option>
+						<script> for (var i = 20; i <= 100; i++) {
+							document.write("<option>" + i + "歳</option>");}
+						</script>
+						</select></td>
+					</tr>
+
+
+					<tr>
+						<td><li><label>性別：</label></li></td>
 						<td><input type="radio" name="sex" value="男"
 							checked="checked">男 <input type="radio" name="sex"
 							value="女">女</td>
 					</tr>
+
 					<tr>
 						<td><br></td>
 					</tr>
 					<tr>
-						<td>お届け先住所</td>
+						<td><li>お届け先住所</li></td>
+					</tr>
+					<tr>
+						<td><label>郵便番号:</label></td>
+						<td><input type="text" name="zip31" size="4" maxlength="3"> － <input type="text" name="zip32" size="5" maxlength="4" onKeyUp="AjaxZip3.zip2addr('zip31','zip32','userAddress1','userAddress2');"></td>
 					</tr>
 					<tr>
 						<td><label>都道府県：</label></td>
@@ -130,7 +156,7 @@ table {
 						<td><br></td>
 					</tr>
 					<tr>
-						<td><label>電話番号：</label></td>
+						<td><li><label>電話番号：</label></li></td>
 						<td><input type="text" name="tell" value="" /></td>
 					</tr>
 					<tr>
@@ -139,7 +165,7 @@ table {
 
 					<s:submit value="登録" />
 				</s:form>
-			</table>
+			</ul></table>
 			<div>
 				<span>前画面に戻る場合は</span><a href='<s:url action="HomeAction" />'>こちら</a>
 			</div>
